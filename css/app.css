@@ -45,6 +45,7 @@
     background-color: rgb(20, 20, 20);
     margin-top: 50px;
     margin-right: 25px;
+    box-shadow: 5px 10px #eee;
 }
 
 .card__text, img {
@@ -57,7 +58,7 @@
 
 .card__text {
     height: 150px;
-    padding-top: 50px;
+    padding-top: 35px;
     color: white;
     padding-left: 13px;
 }
@@ -65,4 +66,7 @@
 a, p   {
     font-weight: bold;
     text-decoration: none;
+    margin-top: 5px;
 }
+
+
