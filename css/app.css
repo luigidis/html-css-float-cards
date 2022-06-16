@@ -31,9 +31,9 @@
 
 /* Debug */
 
-/* div > div {
+div > div {
     border: solid 1px red;
-} */
+}
 
  /* Fine Debug */
 
@@ -41,8 +41,10 @@
 
  .card {
     float: left;
-    width: calc(100% / 3);
+    width: calc((100% - 75px) / 3);
     background-color: rgb(20, 20, 20);
+    margin-top: 50px;
+    margin-right: 25px;
 }
 
 .card__text, img {
