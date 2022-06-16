@@ -25,6 +25,7 @@
    text-align: center;
    font-weight: bold;
    margin-top: 25px;
+   margin-bottom: 25px;
    font-size: 20px;
 }
 
@@ -42,3 +43,13 @@ div > div {
     float: left;
     width: calc(100% / 3);
  }
+
+/* .card__text {
+    float: right;
+    display: inline-block;
+    
+} */
+
+.card__img {
+    overflow: auto;
+}
