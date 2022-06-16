@@ -1,0 +1,23 @@
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    color: rgb(255, 0, 76);
+    text-align: center;
+    font-weight: bold;
+}
+
+.first__paragraph {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 25px;
+   font-size: 20px;
+}
