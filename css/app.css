@@ -4,6 +4,12 @@
 
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -20,4 +26,10 @@
    font-weight: bold;
    margin-top: 25px;
    font-size: 20px;
+}
+
+/* Debug */
+
+div > div {
+    border: solid 1px red;
 }
