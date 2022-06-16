@@ -42,14 +42,17 @@ div > div {
  .card {
     float: left;
     width: calc(100% / 3);
- }
+}
 
-/* .card__text {
-    float: right;
-    display: inline-block;
-    
+.card__text, img {
+    float: left;
+}
+
+/* .card__img {
+    overflow: auto;
 } */
 
-.card__img {
-    overflow: auto;
+.card__text {
+    height: 200px;
+    padding-top: 50px;
 }
