@@ -31,9 +31,9 @@
 
 /* Debug */
 
-div > div {
+/* div > div {
     border: solid 1px red;
-}
+} */
 
  /* Fine Debug */
 
@@ -42,6 +42,7 @@ div > div {
  .card {
     float: left;
     width: calc(100% / 3);
+    background-color: rgb(20, 20, 20);
 }
 
 .card__text, img {
@@ -55,4 +56,11 @@ div > div {
 .card__text {
     height: 200px;
     padding-top: 50px;
+    color: white;
+    padding-left: 13px;
+}
+
+a, p   {
+    font-weight: bold;
+    text-decoration: none;
 }
