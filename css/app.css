@@ -35,3 +35,10 @@ div > div {
 }
 
  /* Fine Debug */
+
+ /* Float */
+
+ .card {
+    float: left;
+    width: calc(100% / 3);
+ }
